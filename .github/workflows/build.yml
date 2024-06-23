@@ -336,3 +336,8 @@ jobs:
             ./geode-${{ steps.ref.outputs.hash }}-android32.zip
             ./geode-${{ steps.ref.outputs.hash }}-android64.zip
             ./resources.zip
+
+
+      - name: Install ninja-build tool
+        uses: seanmiddleditch/gha-setup-ninja@v5
+                  
